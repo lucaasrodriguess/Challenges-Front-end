@@ -1,0 +1,25 @@
+.first-container {
+  margin: 2em;
+}
+.first-container__lista {
+}
+.lista-titulo {
+  color: var(--white);
+  font-family: var(--principal-font);
+}
+.lista-texto {
+  padding: 1em 1em 0.5em 0;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+.lista-texto__imagem {
+  padding-right: 1em;
+}
+.Vector {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 16.67%;
+  bottom: 16.67%;
+}

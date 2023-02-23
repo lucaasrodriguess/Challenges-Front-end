@@ -1,4 +1,5 @@
 @import url("css/header.css");
+@import url("css/first-section.css");
 
 :root {
   /*Cores do Projeto*/
@@ -9,7 +10,7 @@
   --input-background-color: rgba(255, 255, 255, 0.16);
 
   /*Fontes do Projeto*/
-  --principal-font: "Inter", sans-serif;
+  --principal-font: "Inter";
 }
 
 body {
