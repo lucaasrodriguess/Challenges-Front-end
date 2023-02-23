@@ -6,6 +6,7 @@
   --color-lightblue: #6bd1ff;
   --color-blue: #5081fb;
   --white: #ffffff;
+  --input-background-color: rgba(255, 255, 255, 0.16);
 
   /*Fontes do Projeto*/
   --principal-font: "Inter", sans-serif;
