@@ -1,6 +1,8 @@
+@import url("css/header.css");
+
 :root {
   /*Cores do Projeto*/
-  --color-darkblue: #5081fb29;
+  --color-darkblue: #051d3b;
   --color-lightblue: #6bd1ff;
   --color-blue: #5081fb;
   --white: #ffffff;
@@ -10,4 +12,10 @@
 }
 
 body {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--principal-font);
+
+  background: var(--color-darkblue);
+  height: 100vh;
 }
