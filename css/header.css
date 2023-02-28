@@ -17,9 +17,11 @@
   border-radius: 8px;
   background-color: var(--input-background-color);
   color: var(--white);
+  opacity: 0.64;
 }
 .cabecalho-container__input::placeholder {
   color: var(--white);
+  opacity: 0.64;
   font-family: var(--principal-font);
   font-size: 1rem;
 }

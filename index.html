@@ -37,21 +37,61 @@
         />
       </div>
     </header>
+
+    <!--First Section-->
+
     <section class="first-container">
       <ul class="first-container__lista">
         <li class="lista-titulo">Menu</li>
         <li class="lista-texto">
-          <img src="img/codigo-html.svg" alt="" class="lista-texto__imagem" />
-          Editor de código
+          <a href="#" class="first-container__button-menu">
+            <img src="img/Vector.svg" alt="" />
+            Editor de código
+          </a>
         </li>
         <li class="lista-texto">
-          <img
-            src="img/comunidade.svg"
-            alt=""
-            class="lista-texto__imagem"
-          />Comunidade
+          <div class="alinhar">
+            <a href="#" class="first-container__button-menu2"
+              ><img src="img/Vector (1).svg" alt="" />
+              Comunidade
+            </a>
+          </div>
         </li>
       </ul>
+      <div class="bloco-central"></div>
+      <div class="first-section__second-container">
+        <p>Seu projeto</p>
+        <input
+          type="text"
+          name="NomeDoProjeto"
+          id="nomeProjeto"
+          class="first-container__input"
+          placeholder="Nome do seu projeto"
+        />
+        <textarea
+          name="descricao"
+          id="descricao"
+          cols="20"
+          rows="3"
+          placeholder="Descrição do seu projeto"
+        ></textarea>
+        <label for="first-container__opcoes" class="first-container__label"
+          >Personalização</label
+        >
+
+        <select
+          class="first-container__opcoes"
+          aria-placeholder="Selecione uma opção"
+        >
+          <option value="JavaScript" class="opcoes">JavaScript</option>
+          <option value="Java" class="opcoes">Java</option>
+          <option value="Python" class="opcoes">Python</option>
+          <option value="C++" class="opcoes">C++</option>
+          <option value="C#">C#</option>
+        </select>
+        <button></button>
+        <button class="second-button">Salvar Projeto</button>
+      </div>
     </section>
   </body>
 </html>
