@@ -129,3 +129,23 @@ button {
   font-size: 1rem;
   font-weight: 400;
 }
+
+.bloco-central {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  background-color: var(--color-lightblue);
+  width: 50%;
+  border-radius: 8px;
+}
+.first-section__bloco-central__input {
+  width: 45%;
+  padding: 20%;
+  border-radius: 8px;
+  background-color: black;
+  color: var(--white);
+}
+.first-section__bloco-central__input::placeholder {
+  color: var(--white);
+}
